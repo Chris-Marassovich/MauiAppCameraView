@@ -26,6 +26,11 @@
         ContentTemplate="{DataTemplate pages:ManageMetaPage}"
         Route="manage" />
 
+    <ShellContent Title="Camera"
+                  Icon="{StaticResource IconRibbon}"
+                  ContentTemplate="{DataTemplate pages:CameraViewPage}"
+                  Route="camera" />
+
     <Shell.FlyoutFooter>
         <Grid Padding="15">
             <sf:SfSegmentedControl x:Name="ThemeSegmentedControl" 
